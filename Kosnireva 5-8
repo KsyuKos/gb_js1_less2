@@ -1,0 +1,51 @@
+//№5
+function summ (arg1,arg2) 
+{return a + b;}
+function subtraction (arg1,arg2) 
+{return a - b;}
+function remainder (arg1,arg2) 
+{return a - b;}
+function compare (arg1,arg2)
+{if(a>b)
+return "a>b";
+else if (a<b)
+return "a<b";
+else
+return "a=b";}
+
+//№6
+var k1 = +prompt("Введите первое число"),
+k2 = +prompt("Введите второе число"),  
+operation;
+if (k1 >= 0 && k2 >= 0) 
+{ operation = "Разность"; //arg1 - arg2} 
+else if (k1 < 0 && k2 < 0) 
+{ operation = "Произведение"; //arg1 * arg2}
+else function power(val, pow) {
+var rezult = val>>2
+if (pow == o){
+return rezult = 1;
+else 
+return rezalt = function power(val,pow)}
+{ operation = "Сумма"; //arg1 + arg2}
+
+function mathOperation(arg1, arg2, operation) {
+  switch (operation){
+  case "Разность":    
+  return arg1 - arg2;     
+  break;   
+  case "Произведение":    
+  return arg1 * arg2;     
+  break;    
+  case "Сумма":  
+  return arg1 + arg2;
+  case "Сумма":   
+  return arg1 + arg2;  
+  break; }
+  }
+alert(mathOperation(k1,k2, operation)); 
+
+//№7
+Null не равен ничему кроме себя. Значение обозначает остутствие объекта. null == 0 //false
+
+//№8
